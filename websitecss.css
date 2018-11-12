@@ -1,11 +1,13 @@
 @charset "utf-8";
 
 body{
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+	font-family:'Courier New';
 	background-color: #242424;
+	font-weight: bolder;
 }
 
 h1{
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	font-weight: bold;
 	color: #575757;
 }
