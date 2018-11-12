@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+	font-family: "Courier New";
+	font-weight: bolder;
+	background-color: #242424;
+}
+
+h1{
+	font-weight: bold;
+	color: #575757;
+}
+
+.alex{
+	color:#CF6062;
+}
+
+.pj{
+	color:#27A8D9;
+}
+
+.molly{
+	color:#A0CC80;
+}
