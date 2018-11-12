@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-	font-family: "Courier New";
+	font-family: 'Cousine', monospace;
 	font-weight: bolder;
 	background-color: #242424;
 }
