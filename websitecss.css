@@ -30,12 +30,18 @@
   }
 
 body{
-	font-family:'Cousine', monospace;
+	font-family: 'Cousine', monospace;
 	background-color: #ffffff;
 }
 
 h1{
-	font-family: 'Open Sans', Gotham, Helvetica, Arial, 'sans-serif';
+	font-family: 'Open Sans', Gotham, 'sans-serif';
+	font-weight: bold;
+	color: #575757;
+}
+
+h2{
+	font-family: Gotham, Helvetica, Arial, 'sans-serif';
 	font-weight: bold;
 	color: #575757;
 }
