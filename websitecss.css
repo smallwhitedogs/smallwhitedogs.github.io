@@ -41,7 +41,7 @@ h1{
 }
 
 h2{
-	font-family: Gotham, Helvetica, Arial, 'sans-serif';
+	font-family: 'Open Sans', Gotham, Helvetica, Arial, 'sans-serif';
 	font-weight: bold;
 	color: #575757;
 }
@@ -78,6 +78,24 @@ section{
 	padding-top: 285px;
 	padding-bottom: 285px;
 }
+
+div#myDiv {
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari */
+	transform: rotate(20deg); /* Standard syntax */
+}
+
+/* svg on top of text */
+div {
+    position: relative;
+}
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+/* svg on top of text */
 
 #a1{ height: 800px;}
 /* #a1a{background-color: #000000; background-image: url(http://farm4.staticflickr.com/3694/10579547726_8a87f9b6e7_o.png);}
