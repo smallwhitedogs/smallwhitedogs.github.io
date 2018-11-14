@@ -69,8 +69,8 @@ section{
 
 .shadow {
     /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
-    -webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.5) ); 
-            filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.5) );
+    -webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.3) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.3) );
 }
 
 .jumbotron {
