@@ -56,7 +56,22 @@
 
   <div class="jumbotron">
       <center> <h1>START LISTENING</h1>
-      <h4><small>Grab your headphones!</small></h4></center>
+      <h4><small>Grab your headphones!
+        
+        <!-- Add the audio clip to your HTML: page -->
+        <audio id="mediaClip1">
+          <source src="sounds/slot_machine.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <audio id="mediaClip2">
+          <source src="sounds/slot_machine.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <button class= "button" id="myBtn" onclick="activateMedia()" type="button";  >Activate Media</button>
+
+      </small></h4></center>
     </div>
 
 <body>
