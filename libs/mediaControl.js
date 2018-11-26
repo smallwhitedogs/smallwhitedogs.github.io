@@ -23,7 +23,7 @@ function scrollPlay(){
   
 
   // First
-  setPositionAndPlay(761, 1437, 0);
+  setPositionAndPlay(770, 1437, 0);
 
   // Second
   setPositionAndPlay(2086, 2309, 1);
