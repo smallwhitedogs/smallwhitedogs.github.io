@@ -1,6 +1,6 @@
 //get the audio element from the HTML code
 var mediaClips = [];
-var clipNumber = 2;
+var clipNumber = 15;
 
 for (let index = 1; index <= clipNumber; index++) {
   var clipName ="mediaClip";
@@ -23,10 +23,10 @@ function scrollPlay(){
   
 
   // First
-  setPositionAndPlay(100, 320, 0);
+  setPositionAndPlay(761, 1437, 0);
 
   // Second
-  setPositionAndPlay(425, 660, 1);
+  setPositionAndPlay(2086, 2309, 1);
 
   // Third
   setPositionAndPlay(765, 1030, 2);
@@ -45,7 +45,6 @@ function scrollPlay(){
 
   // Eighth
   setPositionAndPlay(2520, 2920, 7);
-
   
 }
 
