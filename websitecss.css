@@ -22,16 +22,31 @@
   margin-bottom: 0;
   font-size: 20px;
   letter-spacing: 5px;  
-  background-color:#d8d8d8;
+  background-color:#F4EDE8;
   }
 
   .navbar-nav li a:hover {
   color: #1abc9c !important;
   }
 
+  .jumbotron {
+	background-color: #F4EDE8;
+	padding-top: 100px;
+	padding-bottom: 310px;
+	padding-left: 110px;
+
+}
+
 body{
 	font-family: 'Cousine', monospace;
-	background-color: #ffffff;
+	background-color: #F4EDE8;
+}
+
+h3{
+	font-family: 'Open Sans', Gotham, 'sans-serif';
+	font-weight: bold;
+	font-size: 200px;
+	color: #575757;
 }
 
 h1{
@@ -79,12 +94,6 @@ section{
     /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
     -webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.3) ); 
             filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.3) );
-}
-
-.jumbotron {
-	background-color: #d8d8d8;
-	padding-top: 310px;
-	padding-bottom: 310px;
 }
 
 .RotNeg4 {
