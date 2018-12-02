@@ -144,6 +144,12 @@ section{
 	transform: rotate(-12deg); /* Standard syntax */
 }
 
+.RotNeg9 {
+	-ms-transform: rotate(-9deg); /* IE 9 */
+	-webkit-transform: rotate(-9deg); /* Safari */
+	transform: rotate(-9deg); /* Standard syntax */
+}
+
 /* svg on top of text */
 div {
     position: relative;
