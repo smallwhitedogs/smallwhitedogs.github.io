@@ -179,7 +179,7 @@ svg {
 }
 /* svg on top of text */
 
-#a1{ height: 750px;}
+#a1{ height: 750px; padding-top: 180px}
 /* #a1a{background-color: #000000; background-image: url(http://farm4.staticflickr.com/3694/10579547726_8a87f9b6e7_o.png);}
 #a1b{background-color: #15F2D0; background-image: url(http://farm8.staticflickr.com/7391/10579565794_aa481639ea_o.png);}
 #a1c{background-color: #15F2D0; background-image: url(http://farm6.staticflickr.com/5544/10579786703_10a808c450_o.png);} */
