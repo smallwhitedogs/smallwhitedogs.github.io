@@ -32,7 +32,7 @@
   .jumbotron {
 	background-color: #F4EDE8;
 	padding-top: 100px;
-	padding-bottom: 310px;
+	padding-bottom: 200px;
 	padding-left: 110px;
 
 }
@@ -179,14 +179,17 @@ svg {
 }
 /* svg on top of text */
 
-#a1{ height: 750px; padding-top: 160px}
+
+
+
+#a1{ height: 750px; padding-top: 140px}
 #a2{ height: 750px; padding-top: 170px}
 #a3{ height: 600px; padding-top: 80px}
 /* #a4{ height: 750px; padding-top: 100px} */
 #a5{ height: 750px; padding-top: 140px}
 #a6{ height: 750px; padding-top: 60px}
 #a7{ height: 750px; padding-top: 70px}
-#a8{ height: 750px; padding-top: 0px}
+#a8{ height: 700px; padding-top: 20px}
 #a9{ height: 750px; padding-top: 160px}
 #a10{ height: 750px; padding-top: 200px}
 #a11{ height: 750px; padding-top: 30px}
