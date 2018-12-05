@@ -32,10 +32,10 @@ function scrollPlay(){
   setPositionAndPlay(2100, 2650, 2);
 
   // Fourth
-  setPositionAndPlay(2750, 3500, 3);
+  setPositionAndPlay(2750, 3450, 3);
 
   // Fifth
-  setPositionAndPlay(3600, 4100, 4);
+  setPositionAndPlay(3500, 4100, 4);
 
   // Sixth
   setPositionAndPlay(4250, 5840, 5);
