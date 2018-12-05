@@ -26,26 +26,46 @@ function scrollPlay(){
   setPositionAndPlay(770, 1437, 0);
 
   // Second
-  setPositionAndPlay(2086, 2309, 1);
+  setPositionAndPlay(1497, 2309, 1);
 
   // Third
-  setPositionAndPlay(765, 1030, 2);
+  setPositionAndPlay(2207, 2830, 2);
 
   // Fourth
-  setPositionAndPlay(1118, 1370, 3);
+  setPositionAndPlay(2840, 3629, 3);
 
   // Fifth
-  setPositionAndPlay(1469, 1720, 4);
+  setPositionAndPlay(3629, 4380, 4);
 
   // Sixth
-  setPositionAndPlay(1822, 2063, 5);
+  setPositionAndPlay(4389, 5840, 5);
 
   // Seventh
-  setPositionAndPlay(2170, 2414, 6);
+  setPositionAndPlay(5854, 6590, 6);
 
   // Eighth
-  setPositionAndPlay(2520, 2920, 7);
-  
+  setPositionAndPlay(6603, 7350, 7);
+
+  // Ninth
+  setPositionAndPlay(7367, 8870, 0);
+
+  // 10
+  setPositionAndPlay(8880, 9930, 1);
+
+  // 11
+  setPositionAndPlay(9940, 10710, 2);
+
+  // 12
+  setPositionAndPlay(10726, 1370, 3);
+
+  // 13
+  setPositionAndPlay(3629, 1720, 4);
+
+  // 14
+  setPositionAndPlay(4389, 2063, 5);
+
+  // 15
+  setPositionAndPlay(5854, 2414, 6);
 }
 
 window.requestAnimationFrame(scrollPlay);
