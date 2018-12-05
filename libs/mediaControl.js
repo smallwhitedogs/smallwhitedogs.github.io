@@ -23,22 +23,22 @@ function scrollPlay(){
   
 
   // First
-  setPositionAndPlay(770, 1437, 0);
+  setPositionAndPlay(650, 1400, 0);
 
   // Second
-  setPositionAndPlay(1497, 2309, 1);
+  setPositionAndPlay(1400, 2000, 1);
 
   // Third
-  setPositionAndPlay(2207, 2830, 2);
+  setPositionAndPlay(2100, 2650, 2);
 
   // Fourth
-  setPositionAndPlay(2840, 3629, 3);
+  setPositionAndPlay(2750, 3500, 3);
 
   // Fifth
-  setPositionAndPlay(3629, 4380, 4);
+  setPositionAndPlay(3600, 4100, 4);
 
   // Sixth
-  setPositionAndPlay(4389, 5840, 5);
+  setPositionAndPlay(4250, 5840, 5);
 
   // Seventh
   setPositionAndPlay(5854, 6590, 6);
@@ -47,25 +47,25 @@ function scrollPlay(){
   setPositionAndPlay(6603, 7350, 7);
 
   // Ninth
-  setPositionAndPlay(7367, 8870, 0);
+  setPositionAndPlay(7367, 8870, 8);
 
   // 10
-  setPositionAndPlay(8880, 9930, 1);
+  setPositionAndPlay(8880, 9930, 9);
 
   // 11
-  setPositionAndPlay(9940, 10710, 2);
+  setPositionAndPlay(9940, 10710, 10);
 
   // 12
-  setPositionAndPlay(10726, 1370, 3);
+  setPositionAndPlay(10726, 10999, 11);
 
   // 13
-  setPositionAndPlay(3629, 1720, 4);
+  setPositionAndPlay(11629, 11720, 12);
 
   // 14
-  setPositionAndPlay(4389, 2063, 5);
+  setPositionAndPlay(12389, 13000, 13);
 
   // 15
-  setPositionAndPlay(5854, 2414, 6);
+  setPositionAndPlay(13854, 14000, 14);
 }
 
 window.requestAnimationFrame(scrollPlay);
