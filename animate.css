@@ -8,6 +8,26 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+.eye {
+  animation: eye 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+
+@keyframes eye{
+  5%,
+  20% {
+    transform: scale(1, 1);
+    stroke-width: 2px;
+	
+  }
+  10%,
+  15% {
+    transform: scale(1, 0);
+    stroke-width: 20px;
+  }
+}
+
 .redpicture {
   fill: #a53c3c;
 }
