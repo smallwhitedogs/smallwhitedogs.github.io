@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+.js-loading *;
+.js-loading *:before;
+.js-loading *:after{
+	animation-play-state: paused !important;
+}
+
 .affix {
     bottom: -20px;
     z-index: 9999 !important;
