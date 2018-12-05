@@ -38,34 +38,32 @@ function scrollPlay(){
   setPositionAndPlay(3500, 4100, 4);
 
   // Sixth
-  setPositionAndPlay(4250, 5840, 5);
+  setPositionAndPlay(4250, 4900, 5);
 
   // Seventh
-  setPositionAndPlay(5854, 6590, 6);
+  setPositionAndPlay(5000, 5650, 6);
 
   // Eighth
-  setPositionAndPlay(6603, 7350, 7);
+  setPositionAndPlay(5700, 6300, 7);
 
-  // Ninth
-  setPositionAndPlay(7367, 8870, 8);
+  // Ninth in plain sight
+  setPositionAndPlay(6450, 7100, 8);
 
-  // 10
-  setPositionAndPlay(8880, 9930, 9);
+  // 10 jack of all trades
+  setPositionAndPlay(7200, 7700, 9);
 
   // 11
-  setPositionAndPlay(9940, 10710, 10);
+  setPositionAndPlay(7800, 8400, 10);
 
-  // 12
-  setPositionAndPlay(10726, 10999, 11);
+  // 12 reunion
+  setPositionAndPlay(8600, 9800, 11);
 
   // 13
-  setPositionAndPlay(11629, 11720, 12);
+  setPositionAndPlay(9850, 10400, 12);
 
   // 14
-  setPositionAndPlay(12389, 13000, 13);
-
-  // 15
-  setPositionAndPlay(13854, 14000, 14);
+  setPositionAndPlay(10550, 11100, 13);
+  
 }
 
 window.requestAnimationFrame(scrollPlay);
