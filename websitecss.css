@@ -67,23 +67,28 @@ h2{
 }
 
 .alex{
+	font-weight: bold;
 	color:#CF6062;
 }
 
 .pj{
+	font-weight: bold;
 	color:#264D81;
 }
 
 .molly{
-	color:#A0CC80;
+	font-weight: bold;
+	color:#2A6424;
 }
 
 .jennifer{
-	color:#aaa000;
+	font-weight: bold;
+	color:#513E00;
 }
 
 .adam{
-	color:#C67B3D;
+	font-weight: bold;
+	color:#9A5708;
 }
 
 section{
