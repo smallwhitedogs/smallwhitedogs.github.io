@@ -20,6 +20,10 @@ function scrollPlay(){
   Uncomment this line to see the scroll position on console
   */
  console.log(scrollPosition);
+ /******* */
+ animatedPaths[animatedPaths.length-1].pause();
+ /****** */
+ animatedPaths[animatedPaths.length-1].seek(animatedPaths[0].duration * (scrollPosition / 100)    );
   
 
   // First

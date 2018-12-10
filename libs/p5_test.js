@@ -1,3 +1,6 @@
+/******** */
+var animatedPaths = [];
+
 function setup(){
 
 // retrieve all the SVG paths in the html
@@ -6,6 +9,7 @@ var pathEls = document.querySelectorAll('path');
 	  
 	  // for each path
 	  var pathEl = pathEls[i];
+		console.log(pathEl);
 
 	  // Set an offset alonf the path. Here we use thge library anime.js !!Awesome library!!
 	  // see documentation here: http://animejs.com/documentation/
@@ -14,7 +18,7 @@ var pathEls = document.querySelectorAll('path');
 	  pathEl.setAttribute('stroke-dashoffset', offset);
 	  
 	  // Animation parameters
-	  anime({
+	  var tmp = anime({
 	    targets: pathEl,
 	    strokeDashoffset: [offset, 0],
 	    duration: 4000,
@@ -23,6 +27,9 @@ var pathEls = document.querySelectorAll('path');
 	    direction: 'alternate',
 	    easing: 'easeInOutSine',
 	    autoplay: true
-	  });
+		});
+		
+			/****** */
+			animatedPaths.push(tmp);
 	}
 }
