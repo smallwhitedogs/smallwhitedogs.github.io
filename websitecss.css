@@ -39,9 +39,12 @@
 
 }
 
+
+
 body{
 	font-family: 'Cousine', monospace;
-	background-color: #F4EDE8;
+	background-image: url("images/corkboard.png");
+	background-repeat: repeat;
 }
 
 h3{
@@ -68,7 +71,7 @@ h2{
 }
 
 .pj{
-	color:#27A8D9;
+	color:#264D81;
 }
 
 .molly{
