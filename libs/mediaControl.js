@@ -1,6 +1,7 @@
 //get the audio element from the HTML code
 var mediaClips = [];
 var clipNumber = 15;
+//let scrollPosition;
 
 for (let index = 1; index <= clipNumber; index++) {
   var clipName ="mediaClip";
@@ -8,8 +9,6 @@ for (let index = 1; index <= clipNumber; index++) {
   var media = document.getElementById(clipName.concat(indexNum));
   mediaClips.push(media);
 }
-
-let scrollPosition;
 
 // This function detects the scroll position and  
 function scrollPlay(){  
@@ -21,9 +20,9 @@ function scrollPlay(){
   */
  console.log(scrollPosition);
  /******* */
- animatedPaths[animatedPaths.length-1].pause();
+ //animatedPaths[animatedPaths.length-1].pause();
  /****** */
- animatedPaths[animatedPaths.length-1].seek(animatedPaths[0].duration * (scrollPosition / 100)    );
+ //animatedPaths[animatedPaths.length-1].seek(animatedPaths[0].duration * (scrollPosition / 100)    );
   
 
   // First

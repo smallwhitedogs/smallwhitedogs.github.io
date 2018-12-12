@@ -9,7 +9,7 @@ var pathEls = document.querySelectorAll('path');
 	  
 	  // for each path
 	  var pathEl = pathEls[i];
-		console.log(pathEl);
+		//console.log(pathEl);
 
 	  // Set an offset alonf the path. Here we use thge library anime.js !!Awesome library!!
 	  // see documentation here: http://animejs.com/documentation/
