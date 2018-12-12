@@ -30,7 +30,7 @@
   }
 
   .jumbotron {
-	background-image: url("images/vamphead4.png");
+	background-image: url("images/vamphead5.png");
 	background-color: #F4EDE8;
     background-size: cover;
 	padding-top: 10px;
@@ -90,6 +90,7 @@ h2{
 	font-weight: bold;
 	color:#9A5708;
 }
+
 
 section{
 	width: 100%; 
